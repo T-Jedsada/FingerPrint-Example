@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.jedsada.fingerprint.example.MainActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/fingerprint_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fp_40px" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fingerprint_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/fingerprint_hint"
+        android:textColor="@color/hint_color" />
+
+</LinearLayout>
